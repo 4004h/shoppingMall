@@ -22,7 +22,7 @@
     left: 50%;
     transform: translateX(-50%);
     width: 1920px;
-    height: 500px; 
+    height: 600px; 
 }
 
 
@@ -129,7 +129,7 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 10px;
-    pointer-events: none;
+    /* pointer-events: none; */
     margin: auto;
 }
 
@@ -143,55 +143,8 @@
 #banner ul li a
 {
     cursor: Pointer;
-    z-index: 100;
+    z-index: 10;
 }
 
 
-.box5
-{
-    width: 300px;
-    height: 220px;
-    background-color: yellow;
-}
-
-.box6
-{
-    width: 300px;
-    height: 220px;
-    background-color: skyblue;
-}
-
-.box7
-{
-    width: 300px;
-    height: 220px;
-    background-color: greenyellow;
-}
-
-
-#slide ul li div
-{
-    font-size: 3em;
-    text-align: center;
-    width: 1920px; height: 500px;
-}
-.box0
-{
-    background-color: skyblue;
-}
-
-.box1
-{
-    background-color: greenyellow;
-}
-
-.box2
-{
-    background-color: yellow;
-}
-
-.box3
-{
-    background-color: pink;
-}
 

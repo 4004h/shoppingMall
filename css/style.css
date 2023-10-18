@@ -56,7 +56,7 @@ a{
     display: flex;
 }
 
-form
+header form
 {
     width: 800px;
     display: flex;
@@ -64,7 +64,7 @@ form
     justify-content: center;
 }
 
-form input
+header form input
 {
     width: 80%;
     height: 45px;
@@ -375,8 +375,32 @@ footer
 
 }
 
+#userInfo
+{
+    position: relative;
+}
 
+#userInfo .Basket
+{
+    display: none;
+    position: absolute;
+    right: 31px;
+    top: 11px;
+    width:  24px;
+    height: 24px;
+    background-color: #2b99ff;
+    border-radius: 50%;
 
+    line-height: 23px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+button
+{
+    cursor: pointer;
+}
 
 
 

@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/display.css">
     <title>Market</title>
 </head>
+<!-- https://4004h.github.io/shoppingMall/index.html -->
 <body>
 
     <header>
@@ -41,13 +42,15 @@
             <div id="userInfo">
                 <ul>
                     <li>
-                        <a href="#">
+                        <!-- 주문목록 배송 조회 교/반신청 후기 -->
+                        <a href="./page/mypage.html">
                             <img src="./image/users.png" alt="user my page">
                             <span>마이페이지</span>
                         </a>
                     </li>
                     <li>
                         <a href="./page/cart.html">
+                            <div class="Basket"></div>
                             <img src="./image/cart.png" alt="cart page">
                             <span>장바구니</span>
                         </a>
@@ -91,31 +94,31 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#"><span>주방용품</span></a>
+                            <a href="./page/search.html?search=Kitchen&page=1"><span>주방용품</span></a>
                             <!-- <ul class="subMenu"></ul> -->
 
         
                         </li>
                         <li>
-                            <a href="#"><span>생활용품</span></a>
+                            <a href="./page/search.html?search=daily&page=1"><span>생활용품</span></a>
                             <!-- <ul class="subMenu"></ul> -->
         
                         </li>
                         <li>
-                            <a href="#"><span>가전디지털</span></a>
+                            <a href="./page/search.html?search=digital&page=1"><span>가전디지털</span></a>
                             <ul class="subToggl">
-                                <li><a href="#">에어컨</a></li>
-                                <li><a href="#">세탁기</a></li>
-                                <li><a href="#">냉장고</a></li>
+                                <li><a href="./page/search.html?search=digital-aircon&page=1">에어컨</a></li>
+                                <li><a href="./page/search.html?search=digital-washing&page=1">세탁기</a></li>
+                                <li><a href="./page/search.html?search=digital-fridge&page=1">냉장고</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="#"><span>스포츠</span></a>
+                            <a href="./page/search.html?search=sports&page=1"><span>스포츠</span></a>
                             <!-- <ul class="subMenu"></ul> -->
         
                         </li>
                         <li>
-                            <a href="#"><span>도서</span></a>
+                            <a href="./page/search.html?search=book&page=1"><span>도서</span></a>
                             <!-- <ul class="subMenu"></ul> -->
         
                         </li>
@@ -146,30 +149,30 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#"><span>주방용품</span></a>
+                    <a href="./page/search.html?search=Kitchen&page=1"><span>주방용품</span></a>
                     <!-- <ul class="subMenu"></ul> -->
 
                 </li>
                 <li>
-                    <a href="#"><span>생활용품</span></a>
+                    <a href="./page/search.html?search=daily&page=1"><span>생활용품</span></a>
                     <!-- <ul class="subMenu"></ul> -->
 
                 </li>
                 <li>
-                    <a href="#"><span>가전디지털</span></a>
+                    <a href="./page/search.html?search=digital&page=1"><span>가전디지털</span></a>
                     <ul class="subMenu">
-                        <li><a href="#">에어컨</a></li>
-                        <li><a href="#">세탁기</a></li>
-                        <li><a href="#">냉장고</a></li>
+                        <li><a href="./page/search.html?search=digital-aircon&page=1">에어컨</a></li>
+                        <li><a href="./page/search.html?search=digital-washing&page=1">세탁기</a></li>
+                        <li><a href="./page/search.html?search=digital-fridge&page=1">냉장고</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#"><span>스포츠</span></a>
+                    <a href="./page/search.html?search=sports&page=1"><span>스포츠</span></a>
                     <!-- <ul class="subMenu"></ul> -->
 
                 </li>
                 <li>
-                    <a href="#"><span>도서</span></a>
+                    <a href="./page/search.html?search=book&page=1"><span>도서</span></a>
                     <!-- <ul class="subMenu"></ul> -->
 
                 </li>
@@ -190,20 +193,16 @@
                 <div class="prev" onclick=""></div>
 
                 <ul>
-                    <li><a href="#"><div class="box0">1</div></a></li>
-                    <li><a href="#"><div class="box1">2</div></a></li>
-                    <li><a href="#"><div class="box2">3</div></a></li>
-                    <li><a href="#"><div class="box3">4</div></a></li>
-                    <li><a href="#"><div class="box0">5</div></a></li>
-                    <li><a href="#"><div class="box1">6</div></a></li>
-                    <li><a href="#"><div class="box2">7</div></a></li>
-                    <li><a href="#"><div class="box3">8</div></a></li>
+                    <li><a href="./page/search.html?search=digital&page=1"><img src="./image/slide1.jpg" alt=""></a></li>
+                    <li><a href="./page/search.html?search=Kitchen&page=1"><img src="./image/slide2.jpg" alt=""></a></li>
+                    <li><a href="./page/search.html?search=clothes&page=1"><img src="./image/slide3.jpg" alt=""></a></li>
                 </ul>
 
             </div>
 
         </div>
 
+        <!-- 오늘의 추천 상품 코드 -->
         <div class="display">
             <h1>오늘의 추천 상품</h1>
             <ul class="list" id="today">
@@ -224,37 +223,9 @@
         </div>
 
         <div id="banner">
-
-            <ul id="bannerInner">
-                <li>
-                    <a href="#">
-                        <div class="box5"></div>
-
-                    </a>
-
-                </li>
-                <li>
-                    <div class="box6"></div>
-
-                </li>
-                <li>
-                    <div class="box7"></div>
-
-                </li>
-                <li>
-                    <div class="box5"></div>
-
-                </li>
-                <li>
-                    <div class="box6"></div>
-
-                </li>
-                <li>
-                    <div class="box7"></div>
-
-                </li>
+            <ul>
+                <li><a href="#"><img src="./image/logo1.png" alt=""></a></li>
             </ul>
-
         </div>
 
         <div class="display">

@@ -69,9 +69,125 @@ data = [
         "img" : "./image/goods/goods-food4.jpg",
         "pay" : 58000,
         "sale" : 35
+    },
+
+    {
+        "id" : "09",
+        "category" : "Kitchen",
+        "name" : "1pc 프라이팬",
+        "img" : "./image/goods/goods-Kitchen1.jpg",
+        "pay" : 25000,
+        "sale" : 30
+    },
+
+    {
+        "id" : "10",
+        "category" : "Kitchen",
+        "name" : "브라반티아 편수냄비 18cm",
+        "img" : "./image/goods/goods-Kitchen2.jpg",
+        "pay" : 30000,
+        "sale" : 20
+    },
+
+    {
+        "id" : "11",
+        "category" : "Kitchen",
+        "name" : "카빙나이프",
+        "img" : "./image/goods/goods-Kitchen3.jpg",
+        "pay" : 18000,
+        "sale" : 32
+    },
+
+    {
+        "id" : "12",
+        "category" : "daily",
+        "name" : "순하고 부드러운 도담이 로즈골드 엠보 [캡형] 아기 물티슈 40gsm 100매 X 20팩",
+        "img" : "./image/goods/goods-daily1.jpg",
+        "pay" : 22000,
+        "sale" : 0
+    },
+
+    {
+        "id" : "13",
+        "category" : "daily",
+        "name" : "디저트 접시",
+        "img" : "./image/goods/goods-daily2.jpg",
+        "pay" : 40000,
+        "sale" : 34
+    },
+
+    {
+        "id" : "14",
+        "category" : "daily",
+        "name" : "오클린 주방세제",
+        "img" : "./image/goods/goods-daily3.jpg",
+        "pay" : 9000,
+        "sale" : 0
+    },
+
+    {
+        "id" : "15",
+        "category" : "digital-aircon",
+        "name" : "SAMSUNG 무풍 에어컨 청정플러스",
+        "img" : "./image/goods/goods-digital1.jpg",
+        "pay" : 459000,
+        "sale" : 39
+    },
+
+    {
+        "id" : "16",
+        "category" : "digital-washing",
+        "name" : "LG 트윈워시 세탁기 스페이스블랙",
+        "img" : "./image/goods/goods-digital2.jpg",
+        "pay" : 207000,
+        "sale" : 34
+    },
+
+    {
+        "id" : "17",
+        "category" : "digital-fridge",
+        "name" : "LG SIGNATURE 상냉장고",
+        "img" : "./image/goods/goods-digital3.jpg",
+        "pay" : 2200000,
+        "sale" : 40
+    },
+
+    {
+        "id" : "18",
+        "category" : "sports",
+        "name" : "알파벳 패턴 배구",
+        "img" : "./image/goods/goods-sports1.jpg",
+        "pay" : 19200,
+        "sale" : 0
+    },
+
+    {
+        "id" : "19",
+        "category" : "sports",
+        "name" : "하이브리드알시티 엔도 24",
+        "img" : "./image/goods/goods-sports2.jpg",
+        "pay" : 578000,
+        "sale" : 0
+    },
+
+    {
+        "id" : "20",
+        "category" : "book",
+        "name" : "데일 카네기 인간관계론",
+        "img" : "./image/goods/goods-book1.jpg",
+        "pay" : 10350,
+        "sale" : 0
+    },
+
+    {
+        "id" : "21",
+        "category" : "book",
+        "name" : "봇치 더 록 1",
+        "img" : "./image/goods/goods-book2.jpg",
+        "pay" : 8000,
+        "sale" : 10
     }
 ]
 
-
-
+ 
 

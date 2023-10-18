@@ -1,4 +1,6 @@
 $(document).ready(function(){
+    Basket()
+
     //Menu over/leave
     $(".mainMenu>li").mouseover(function () {
         $(this).children(".subMenu").stop().fadeIn(200);
@@ -29,8 +31,21 @@ $(document).ready(function(){
             $("#toggleMenu").hide();
         }
     });
+
     
 })
+
+function Basket() {
+    if(localStorage.length > 0)
+    {
+        $(".Basket").show()
+        $(".Basket").text(JSON.parse(localStorage.getItem("cart")).length)
+    }
+    else
+    {
+        $(".Basket").hide()
+    }
+}
 
 function select() {
     location.href = `${$("#searchimg img")[0].id}search.html?select=${$("#search").val()}`

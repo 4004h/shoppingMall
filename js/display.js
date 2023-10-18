@@ -28,6 +28,7 @@ $(document).ready(function(){
                         </a>
                     </li>`)
                 }
+
                 break;
         
             case "sale":
@@ -52,7 +53,7 @@ $(document).ready(function(){
                         </li>`)
                         cont++;
                     }
-                    if(cont >= 4 * 4)
+                    if(cont >= 4 * 3)
                     {
                         break;
                     }
