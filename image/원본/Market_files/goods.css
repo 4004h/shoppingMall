@@ -1,0 +1,103 @@
+
+section
+{
+    min-height: calc(493px + 35px);
+
+}
+
+#goodsPage
+{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+#goodsPage img
+{
+    width: 600px;
+    height: 400px;
+
+}
+
+#goodsInfo
+{
+    margin-left: 60px;
+    width: 500px;
+    font-size: 1.2em;
+}
+
+#goodsInfo>ul>li
+{
+    margin: 25px 0px;
+}
+
+#goodsInfo .old
+{
+    color: gray;
+    font-size: 0.9em;
+    text-decoration: line-through;
+}
+
+#goodsInfo .sale
+{
+    color: red;
+    font-weight: bold;
+}
+
+#goodsInfo .pay
+{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#quan
+{
+    width: 55px;
+    height: 100%;
+    font-size: 1em;
+    position: relative;
+    top: -2px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	-webkit-appearance: inner-spin-button;    
+    opacity: 1;
+}
+
+#goodsInfo button
+{
+    font-size: 1em;
+    width: 48%;
+    height: 50px;
+    margin: 0px 1%;
+
+    background-color: white;
+    border: 1px solid black;
+}
+
+#goodsInfo button:hover
+{
+    background-color: #2b99ff;
+    color: white;
+    border: 1.5px solid;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/data.json"></script>
+    <script src="../js/jquery_3.7.0_min.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/display.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/display.css">
+    <title>Market</title>
+</head>
+<body>
+    <header>
+        <!-- 로그인 회원가입 고객센터 창 -->
+        <div class="top">
+            <div class="loSiCen">                
+                <ul>
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Head영억 -->
+        <div id="wrapHead">
+            <a href="../index.html">
+                <img src="../image/logo1.png" class="logo" alt="logo">
+            </a>
+            <form method="post" autocomplete="on" onsubmit=" select(); return false; ">
+                <a onclick="select();" id="searchimg"><img src="../image/search.png" alt="search" id="./"></a>
+                <input type="text" id="search" placeholder="찾고 싶은 상품을 검색해보세요!" title="검색창">
+                <data-link id="."></data-link>
+                
+            </form>
+
+            <div id="userInfo">
+                <ul>
+                    <li>
+                        <a href="./mypage.html">
+                            <img src="../image/users.png" alt="user my page">
+                            <span>마이페이지</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./cart.html">
+                            <div class="Basket">0</div>
+                            <img src="../image/cart.png" alt="cart page">
+                            <span>장바구니</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div id="menu">
+
+            <ul class="mainMenu">
+
+
+                <div id="toggleBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>    
+                </div>
+
+                <div id="toggleMenu">
+                    <ul class="mainToggl">
+                        <li>
+                            <a href="./search.html?search=clothes&page=1"><span>의류</span></a>
+                            <ul class="subToggl">
+                                <li><a href="./search.html?search=clothes-top&page=1">상의</a></li>
+                                <li><a href="./search.html?search=clothes-pants&page=1">하의</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./search.html?search=beauty&page=1"><span>뷰티</span></a>
+                            <!-- <ul class="subMenu"></ul> -->
+                        </li>
+                        <li>
+                            <a href="./search.html?search=food&page=1"><span>식품</span></a>
+                            <ul class="subToggl">
+                                <li><a href="./search.html?search=food-vegetable&page=1">채소</a></li>
+                                <li><a href="./search.html?search=food-fruit&page=1">과일</a></li>
+                                <li><a href="./search.html?search=food-meat&page=1">축산</a></li>
+                                <li><a href="./search.html?search=food-fast&page=1">가공식품</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./search.html?search=Kitchen&page=1"><span>주방용품</span></a>
+                            <!-- <ul class="subMenu"></ul> -->
+        
+                        </li>
+                        <li>
+                            <a href="./search.html?search=daily&page=1"><span>생활용품</span></a>
+                            <!-- <ul class="subMenu"></ul> -->
+        
+                        </li>
+                        <li>
+                            <a href="./search.html?search=digital&page=1"><span>가전디지털</span></a>
+                            <ul class="subToggl">
+                                <li><a href="./search.html?search=digital-aircon&page=1">에어컨</a></li>
+                                <li><a href="./search.html?search=digital-washing&page=1">세탁기</a></li>
+                                <li><a href="./search.html?search=digital-fridge&page=1">냉장고</a></li>
+                                <li><a href="./search.html?search=digital-digital&page=1">디지털</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./search.html?search=sports&page=1"><span>스포츠</span></a>
+                            <!-- <ul class="subMenu"></ul> -->
+        
+                        </li>
+                        <li>
+                            <a href="./search.html?search=book&page=1"><span>도서</span></a>
+                            <!-- <ul class="subMenu"></ul> -->
+        
+                        </li>
+
+
+
+
+                    </ul>
+                    
+                </div>
+
+                <li>
+                    <a href="./search.html?search=clothes&page=1"><span>의류</span></a>
+                    <ul class="subMenu">
+                        <li><a href="./search.html?search=clothes-top&page=1">상의</a></li>
+                        <li><a href="./search.html?search=clothes-pants&page=1">하의</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./search.html?search=beauty&page=1"><span>뷰티</span></a>
+                    <!-- <ul class="subMenu"></ul> -->
+                </li>
+                <li>
+                    <a href="./search.html?search=food&page=1"><span>식품</span></a>
+                    <ul class="subMenu">
+                        <li><a href="./search.html?search=food-vegetable&page=1">채소</a></li>
+                        <li><a href="./search.html?search=food-fruit&page=1">과일</a></li>
+                        <li><a href="./search.html?search=food-meat&page=1">축산</a></li>
+                        <li><a href="./search.html?search=food-fast&page=1">가공식품</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./search.html?search=Kitchen&page=1"><span>주방용품</span></a>
+                    <!-- <ul class="subMenu"></ul> -->
+
+                </li>
+                <li>
+                    <a href="./search.html?search=daily&page=1"><span>생활용품</span></a>
+                    <!-- <ul class="subMenu"></ul> -->
+
+                </li>
+                <li>
+                    <a href="./search.html?search=digital&page=1"><span>가전디지털</span></a>
+                    <ul class="subMenu">
+                        <li><a href="./search.html?search=digital-aircon&page=1">에어컨</a></li>
+                        <li><a href="./search.html?search=digital-washing&page=1">세탁기</a></li>
+                        <li><a href="./search.html?search=digital-fridge&page=1">냉장고</a></li>
+                        <li><a href="./search.html?search=digital-digital&page=1">디지털</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./search.html?search=sports&page=1"><span>스포츠</span></a>
+                    <!-- <ul class="subMenu"></ul> -->
+
+                </li>
+                <li>
+                    <a href="./search.html?search=book&page=1"><span>도서</span></a>
+                    <!-- <ul class="subMenu"></ul> -->
+
+                </li>
+
+  
+            </ul>
+
+
+            
+        </div>
+    
+    </header>
+        
+    <section>
+        <div class="display">
+            <h1>검색된 상품 0개</h1>
+            <ul class="list" id="searched">
+
+            </ul>
+            
+        </div>
+        
+        <!-- 페이징 -->
+        <div id="paging">
+            <ul>
+                <!-- <li><a class="pageLeft activ">〈 </a></li>
+                <li><a class="pageNum point">1</a></li>
+                <li><a class="pageNum ">2</a></li>
+                <li><a class="pageRight activ"> 〉</a></li> -->
+            </ul>
+
+        </div>
+
+    </section>
+    
+    <footer>
+        <!-- 회사소개 이용약관 개인정보처리방침 이용안내 -->
+        <div class="footerTop">
+            <ul>
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">이용안내</a></li>
+            </ul>
+
+
+        </div>
+        <div class="wrapFoot">
+            <div class="logo2">
+                <a href="../index.html"><img src="../image/logo2.png" alt="logo2"></a>
+            </div>
+
+            <div class="footerInner">
+                <span>상호명 : (주)Market</span>
+                <span>대표이사 : 홍길동</span>
+                <span>개인정보담당자 : 박길동</span>
+                <span>본사 : 서울 종로구 돈화문로 26</span>
+                <span>사업자등록번호 : 111-11-XXXXX</span>
+                <span>통신판매업신고 : 111-서울종로-XXXX</span>
+                <span>호스팅 제공자 : 닷홈</span>
+
+            </div>
+
+        </div>
+
+
+    </footer>
+
+
+   
+
+
+</body>
+</html>
