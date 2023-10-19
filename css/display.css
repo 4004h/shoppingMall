@@ -9,6 +9,7 @@
 {
     margin: 35px 0px 34px 0px;
     font-size: 22px;
+    text-indent: 20px;
 }
 
 .display>ul
@@ -70,13 +71,51 @@
     text-decoration: line-through;
 }
 
+#paging
+{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
 
+#paging ul
+{
+    display: flex;
+    justify-content: center;
 
+    width: 400px;
+    margin: auto;
+}
 
+#paging ul a
+{
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+#paging ul a.pageNum:hover
+{
+    text-decoration: underline;
+}
 
+.point
+{
+    color: orange;
+}
 
+#paging ul li>a.activ, #paging ul li>a.pageLeft ,#paging ul li>a.pageRight
+{
+    padding-top: 9px;
 
+}
 
+.activ:hover
+{
+    color: orange;
+}
 
 
 

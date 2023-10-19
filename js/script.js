@@ -48,7 +48,7 @@ function Basket() {
 }
 
 function select() {
-    location.href = `${$("#searchimg img")[0].id}search.html?select=${$("#search").val()}`
+    location.href = `${$("#searchimg img")[0].id}search.html?select=${$("#search").val()}&page=1`
 
 }
 

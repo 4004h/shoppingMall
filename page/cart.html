@@ -7,8 +7,10 @@
     <script src="../js/jquery_3.7.0_min.js"></script>
     <script src="../js/script.js"></script>
     <script src="../js/cart.js"></script>
+    <script src="../js/display.js"></script>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="../css/display.css">
     <title>Market</title>
 </head>
 <body>
@@ -32,6 +34,7 @@
             <form method="post" autocomplete="on" onsubmit=" select(); return false; ">
                 <a onclick="select();" id="searchimg"><img src="../image/search.png" alt="search" id="./"></a>
                 <input type="text" id="search" placeholder="찾고 싶은 상품을 검색해보세요!" title="검색창">
+                <data-link id="."></data-link>
                 
             </form>
 
@@ -99,11 +102,12 @@
         
                         </li>
                         <li>
-                            <a href="#"><span>가전디지털</span></a>
+                            <a href="./search.html?search=digital&page=1"><span>가전디지털</span></a>
                             <ul class="subToggl">
                                 <li><a href="./search.html?search=digital-aircon&page=1">에어컨</a></li>
                                 <li><a href="./search.html?search=digital-washing&page=1">세탁기</a></li>
                                 <li><a href="./search.html?search=digital-fridge&page=1">냉장고</a></li>
+                                <li><a href="./search.html?search=digital-digital&page=1">디지털</a></li>
                             </ul>
                         </li>
                         <li>
@@ -160,6 +164,7 @@
                         <li><a href="./search.html?search=digital-aircon&page=1">에어컨</a></li>
                         <li><a href="./search.html?search=digital-washing&page=1">세탁기</a></li>
                         <li><a href="./search.html?search=digital-fridge&page=1">냉장고</a></li>
+                        <li><a href="./search.html?search=digital-digital&page=1">디지털</a></li>
                     </ul>
                 </li>
                 <li>
@@ -192,8 +197,8 @@
                 <colgroup>
                     <col width="45">
                     <col width="750">
+                    <col width="150">
                     <col width="120">
-                    <col width="100">
                 </colgroup>
                 
                 <thead>
@@ -306,6 +311,25 @@
                 </tfoot>
 
             </table>
+
+        </div>
+
+        <div class="display">
+            <h1 style="text-indent: 60px;">오늘의 추천 상품</h1>
+            <ul class="list" id="today">
+                <!-- <li>
+                    <a href="#">
+                        <img src="./image/goods/goods-clothes1.jpg" alt="">
+                        <hr>
+                        <ul class="goodsInfo">
+                            <li>USA 국가대표 스키팀 스키복 상의</li>
+                            <li>무료배송</li>
+                            <li><span class="old">20000원</span> <span class="sale"> 10% </span></li>
+                            <li>18,000원</li>
+                        </ul>
+                    </a>
+                </li> -->
+            </ul>
 
         </div>
         

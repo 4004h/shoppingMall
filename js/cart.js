@@ -1,4 +1,4 @@
-let json = JSON.parse(JSON.stringify(data));
+json = JSON.parse(JSON.stringify(data));
 let cart = JSON.parse(localStorage.getItem("cart"))
 
 
