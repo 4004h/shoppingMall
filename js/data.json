@@ -1,0 +1,220 @@
+data = [
+    {
+        "id" : "01",
+        "category" : "clothes-top",
+        "name" : "USA 국가대표 스키팀 스키복 상의",
+        "img" : "./image/goods/goods-clothes1.jpg",
+        "pay" : 20000,
+        "sale" : 20
+    },
+
+    {
+        "id" : "02",
+        "category" : "clothes-pants",
+        "name" : "울 블렌드 수트 팬츠",
+        "img" : "./image/goods/goods-clothes2.jpg",
+        "pay" : 15000,
+        "sale" : 30
+    },
+
+    {
+        "id" : "03",
+        "category" : "beauty",
+        "name" : "바디 쉐이핑 로션",
+        "img" : "./image/goods/goods-beauty1.jpg",
+        "pay" : 3200,
+        "sale" : 0
+    },
+
+    {
+        "id" : "04",
+        "category" : "beauty",
+        "name" : "올인원 더블 에센스",
+        "img" : "./image/goods/goods-beauty2.jpg",
+        "pay" : 5500,
+        "sale" : 0
+    },
+
+    {
+        "id" : "05",
+        "category" : "food-fruit",
+        "name" : "건강 배 (15kg)",
+        "img" : "./image/goods/goods-food1.jpg",
+        "pay" : 38000,
+        "sale" : 15
+    },
+
+    {
+        "id" : "06",
+        "category" : "food-fast",
+        "name" : "신라면 1봉지",
+        "img" : "./image/goods/goods-food2.jpg",
+        "pay" : 950,
+        "sale" : 0
+    },
+
+    {
+        "id" : "07",
+        "category" : "food-vegetable",
+        "name" : "싱싱한 꽃상추 2kg",
+        "img" : "./image/goods/goods-food3.jpg",
+        "pay" : 39000,
+        "sale" : 10
+    },
+
+    {
+        "id" : "08",
+        "category" : "food-meat",
+        "name" : "프리미엄 1++ 한우 안심",
+        "img" : "./image/goods/goods-food4.jpg",
+        "pay" : 58000,
+        "sale" : 35
+    },
+
+    {
+        "id" : "09",
+        "category" : "Kitchen",
+        "name" : "1pc 프라이팬",
+        "img" : "./image/goods/goods-Kitchen1.jpg",
+        "pay" : 25000,
+        "sale" : 30
+    },
+
+    {
+        "id" : "10",
+        "category" : "Kitchen",
+        "name" : "브라반티아 편수냄비 18cm",
+        "img" : "./image/goods/goods-Kitchen2.jpg",
+        "pay" : 30000,
+        "sale" : 20
+    },
+
+    {
+        "id" : "11",
+        "category" : "Kitchen",
+        "name" : "카빙나이프",
+        "img" : "./image/goods/goods-Kitchen3.jpg",
+        "pay" : 18000,
+        "sale" : 32
+    },
+
+    {
+        "id" : "12",
+        "category" : "daily",
+        "name" : "순하고 부드러운 도담이 로즈골드 엠보 [캡형] 아기 물티슈 40gsm 100매 X 20팩",
+        "img" : "./image/goods/goods-daily1.jpg",
+        "pay" : 22000,
+        "sale" : 0
+    },
+
+    {
+        "id" : "13",
+        "category" : "daily",
+        "name" : "디저트 접시",
+        "img" : "./image/goods/goods-daily2.jpg",
+        "pay" : 40000,
+        "sale" : 34
+    },
+
+    {
+        "id" : "14",
+        "category" : "daily",
+        "name" : "오클린 주방세제",
+        "img" : "./image/goods/goods-daily3.jpg",
+        "pay" : 9000,
+        "sale" : 0
+    },
+
+    {
+        "id" : "15",
+        "category" : "digital-aircon",
+        "name" : "SAMSUNG 무풍 에어컨 청정플러스",
+        "img" : "./image/goods/goods-digital1.jpg",
+        "pay" : 459000,
+        "sale" : 39
+    },
+
+    {
+        "id" : "16",
+        "category" : "digital-washing",
+        "name" : "LG 트윈워시 세탁기 스페이스블랙",
+        "img" : "./image/goods/goods-digital2.jpg",
+        "pay" : 207000,
+        "sale" : 34
+    },
+
+    {
+        "id" : "17",
+        "category" : "digital-fridge",
+        "name" : "LG SIGNATURE 상냉장고",
+        "img" : "./image/goods/goods-digital3.jpg",
+        "pay" : 2200000,
+        "sale" : 40
+    },
+
+    {
+        "id" : "18",
+        "category" : "sports",
+        "name" : "알파벳 패턴 배구",
+        "img" : "./image/goods/goods-sports1.jpg",
+        "pay" : 19200,
+        "sale" : 0
+    },
+
+    {
+        "id" : "19",
+        "category" : "sports",
+        "name" : "하이브리드알시티 엔도 24",
+        "img" : "./image/goods/goods-sports2.jpg",
+        "pay" : 578000,
+        "sale" : 0
+    },
+
+    {
+        "id" : "20",
+        "category" : "book",
+        "name" : "데일 카네기 인간관계론",
+        "img" : "./image/goods/goods-book1.jpg",
+        "pay" : 10350,
+        "sale" : 0
+    },
+
+    {
+        "id" : "21",
+        "category" : "book",
+        "name" : "봇치 더 록 1",
+        "img" : "./image/goods/goods-book2.jpg",
+        "pay" : 8000,
+        "sale" : 10
+    },
+
+    {
+        "id" : "22",
+        "category" : "digital-digital",
+        "name" : "게임모니터 IPS 27인치 에이수스ASUS VG279Q GAMING 144Hz 게이밍모니터",
+        "img" : "./image/goods/goods-digital4.jpg",
+        "pay" : 330000,
+        "sale" : 5
+    },
+
+    {
+        "id" : "23",
+        "category" : "digital-digital",
+        "name" : "레노버 Legion Pro 5i (16″, Gen 8)",
+        "img" : "./image/goods/goods-digital5.jpg",
+        "pay" : 2737500,
+        "sale" : 15
+    },
+
+    {
+        "id" : "24",
+        "category" : "beauty",
+        "name" : "미스 디올 블루밍 부케 오 드 뚜왈렛",
+        "img" : "./image/goods/goods-beauty3.jpg",
+        "pay" : 96000,
+        "sale" : 9
+    }
+]
+
+ 
+
