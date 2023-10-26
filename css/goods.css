@@ -1,0 +1,188 @@
+
+section
+{
+    min-height: calc(493px + 35px);
+
+}
+
+hr
+{
+    border-color: rgb(210, 210, 210);
+}
+
+#goodsPage
+{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+#goodsPage img
+{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+
+#goodsInfo
+{
+    margin-left: 60px;
+    width: 500px;
+    font-size: 1.2em;
+}
+
+#goodsInfo>ul>li
+{
+    margin: 25px 0px;
+}
+
+#goodsInfo .old
+{
+    color: gray;
+    font-size: 0.9em;
+    text-decoration: line-through;
+}
+
+#goodsInfo .sale
+{
+    color: red;
+    font-weight: bold;
+}
+
+#goodsInfo .pay
+{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#quan
+{
+    width: 55px;
+    height: 100%;
+    position: relative;
+    top: -0px;
+    font-size: 1.07em;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	-webkit-appearance: inner-spin-button;    
+    opacity: 1;
+}
+
+#goodsInfo button
+{
+    font-size: 1em;
+    width: 48%;
+    height: 50px;
+    margin: 0px 1%;
+
+    background-color: white;
+    border: 1px solid black;
+}
+
+#goodsInfo button:hover
+{
+    background-color: #2b99ff;
+    color: white;
+    border: 1.5px solid;
+
+}
+
+#godsInfo
+{
+    width: 1200px;
+    margin: auto;
+}
+
+.godsManu
+{
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1.5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+
+    border-bottom: 1px solid rgb(180, 180, 180);
+}
+
+/* 180 210 220 */
+
+.godsManu li
+{
+    width: 240px;
+    transform: translateY(1px);
+
+    border: 1px solid rgb(180, 180, 180);
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.godsManu li a
+{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.con
+{
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+#godsInfo>div
+{
+    padding-top: 50px;
+
+}
+
+#review h3
+{
+    margin: 25px 0px;
+}
+
+.profile
+{
+    display: flex;
+    margin: 20px 0px;
+}
+
+
+.profile img
+{
+    width:  50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name, .score
+{
+    padding-top: 2.5px;
+    margin-left: 5px;
+}
+
+.comment
+{
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.comment p
+{
+    margin: 10px 0px;
+}
+
+.comment span
+{
+    font-size: 14px;
+}
+
