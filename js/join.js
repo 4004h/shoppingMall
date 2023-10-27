@@ -132,7 +132,7 @@ function valid() {
 
 
     
-    if(!$("#agree1").is(':checked') && !$("#agree2").is(':checked'))
+    if($("#agree1").is(':checked') && $("#agree2").is(':checked'))
     {
         alert(`회원가입약관의 내용에 동의하셔야 회원가입 하실 수 있습니다.`)
         location.href = `#conditions`
