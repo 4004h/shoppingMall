@@ -1,7 +1,9 @@
 
 #loginPage
 {
-    width: 1200px;
+    width: 90%;
+    max-width: 1200px;
+    min-width: 280px;
     margin: auto;
 
 }
@@ -30,7 +32,8 @@ section form ul li:first-child a::after
 
 section form
 {
-    width: 400px;
+    width: 80%;
+    max-width: 400px;
     height: 300px;
     margin: auto;
     display: flex;
@@ -92,7 +95,9 @@ section button:nth-of-type(2)
 
 section
 {
-    min-height: calc(493px + 10px);
+    /* calc(493px) */
+    min-height: calc(100vh - (184px + 291px + 35px));
+    height: auto;
     /* + 35px  */
 }
 
@@ -100,6 +105,14 @@ p.pwEr::before
 {
     content: "비번없";
 }
+
+
+
+
+
+
+
+
 
 
 

@@ -93,7 +93,46 @@ $(document).ready(function(){
         return params;
         
     }
+
+    let old = 0;
+    let mew = 0;
+    let active = false;
     
+    slidePage.each((s)=>{
+        slidePage.eq(s)[0].addEventListener("touchstart", dragstart)
+        slidePage.eq(s)[0].addEventListener("touchend", dragEnd)
+        slidePage.eq(s)[0].addEventListener("touchmove", drag)
+        
+    })
+
+    function dragstart(e) {
+        active = true;
+        old = e.touches[0].clientX
+    }
+
+    function dragEnd(e) {
+        active = false;
+        old = 0;
+        mew = 0;
+    }
+
+    function drag(e) {
+        if(active)
+        {
+            mew = e.touches[0].clientX
+            if(mew - old < -50) 
+            {
+                NaxtSlide()
+                active = false;
+            }
+            if(mew - old > 50)
+            {
+                PrevSlide()
+                active = false;
+            }
+        }
+        
+    }
 
 })
 

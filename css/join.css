@@ -1,3 +1,7 @@
+#joinPage
+{
+    min-width: 280px;
+}
 
 table
 {
@@ -15,13 +19,6 @@ table h2
 p
 {
     display: inline-block;
-}
-
-
-section
-{
-    min-height: calc(493px + 35px);
-    /* + 35px  */
 }
 
 td
@@ -85,7 +82,8 @@ table input
 
 #conditions
 {
-    width: 820px;
+    width: 100%;
+    max-width: 820px;
     margin: auto;
     text-align: center;
     margin-top: 40px;
@@ -108,7 +106,8 @@ table input
 
 .agree
 {
-    width: 750px;
+    width: 100%;
+    max-width: 750px;
     margin: 5px auto;
 }
 
@@ -123,7 +122,8 @@ textarea
     font-size: 12px;
     padding: 15px;
     overflow: auto;
-    width: 750px;
+    width: 100%;
+    max-width: 750px;
     height: 200px;
     resize: none;
 }
@@ -151,6 +151,8 @@ textarea
     border: 1.5px solid;
 
 }
+
+
 
 
 

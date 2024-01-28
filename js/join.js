@@ -126,6 +126,12 @@ function valid() {
         return false;
     }
 
+    if(($("#email").val() == ""))
+    {
+        alert(`이메일을 입력해주세요.`)
+        location.href = `#email`
+        return false;
+    }
 
     if(!phon())
     {

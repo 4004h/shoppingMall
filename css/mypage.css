@@ -1,100 +1,268 @@
 
-#mypage
+
+
+
+@media screen and (min-width: 1200px)
 {
-    width: 1200px;
-    margin: auto;
+
+    #mypage
+    {
+        width: 1200px;
+        margin: auto;
+    }
+
+    h1
+    {
+        margin: 15px 0px;
+        text-align: center;
+    }
+
+    #mypage img
+    {
+        width: 130px;
+        height: 130px;
+        padding: 10px 10px 0px 10px;
+        object-fit: cover;
+
+    }
+    #mypage ul
+    {
+        width: 900px;
+        margin: 20px auto;
+        border: 2px solid rgb(240, 240, 240);
+        border-radius: 15px;
+        padding: 20px 40px;
+    }
+
+    #mypage li
+    {
+        display: flex;
+        padding: 15px;
+        border: 2px solid rgb(240, 240, 240);
+        border-radius: 15px;
+        margin-bottom: 20px;
+    }
+
+    .prof
+    {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .deli
+    {
+        display: flex;
+    }
+
+    .deli-info
+    {
+        padding: 10px;
+    }
+
+    .name
+    {
+        font-size: 20px;
+    }
+
+    .pay
+    {
+        font-size: 18px;
+        margin-top: 8px;
+    }
+
+    .buts
+    {
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .buts button
+    {
+        width: 90%;
+        height: 35px;
+        margin: 7px 0px;    
+
+        background-color: white;
+        border: 2px solid rgb(222, 222, 222);
+        border-radius: 5px;
+
+    }
+
+    .buts button:hover
+    {
+        background-color: #2b99ff;
+        color: white;
+        border: 1.5px solid;
+
+    }
+
+
 }
 
-h1
+
+
+
+
+@media screen and (max-width:1199px)
 {
-    margin: 15px 0px;
-    text-align: center;
+
+    #mypage
+    {
+        width: 100%;
+        min-width: 280px;
+        margin: auto;
+    }
+
+    h1
+    {
+        margin: 15px 0px;
+        text-align: center;
+    }
+
+    #mypage img
+    {
+        width: 130px;
+        height: 130px;
+        padding: 10px 10px 0px 10px;
+        object-fit: cover;
+
+    }
+    #mypage ul
+    {
+        width: 100%;
+        max-width: 900px;
+        margin: 20px auto;
+        border: 2px solid rgb(240, 240, 240);
+        border-radius: 15px;
+        padding: 20px 40px;
+    }
+
+    #mypage li
+    {
+        display: flex;
+        padding: 15px;
+        border: 2px solid rgb(240, 240, 240);
+        border-radius: 15px;
+        margin-bottom: 20px;
+    }
+
+    .prof
+    {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .deli
+    {
+        display: flex;
+    }
+
+    .deli-info
+    {
+        padding: 10px;
+    }
+
+    .name
+    {
+        font-size: 20px;
+    }
+
+    .pay
+    {
+        font-size: 18px;
+        margin-top: 8px;
+    }
+
+    .buts
+    {
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .buts button
+    {
+        width: 90%;
+        height: 35px;
+        margin: 7px 0px;    
+
+        background-color: white;
+        border: 2px solid rgb(222, 222, 222);
+        border-radius: 5px;
+
+    }
+
+    .buts button:hover
+    {
+        background-color: #2b99ff;
+        color: white;
+        border: 1.5px solid;
+
+    }
+
 }
 
-#mypage img
+@media screen and (max-width:616px)
 {
-    width: 130px;
-    height: 130px;
-    padding: 10px 10px 0px 10px;
-    object-fit: cover;
+    #mypage ul
+    {
+        width: 100%;
+        max-width: 900px;
+        margin: 20px auto;
+        border: 2px solid rgb(240, 240, 240);
+        border-radius: 15px;
+        padding: 10px 20px;
+    }
+
+    #mypage ul li
+    {
+        display: flex;
+        padding: 15px;
+        border: 2px solid rgb(240, 240, 240);
+        border-radius: 15px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buts
+    {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .buts button
+    {
+        width: 130px;
+        height: 45px;
+        margin: 7px 0px;    
+
+        background-color: white;
+        border: 2px solid rgb(222, 222, 222);
+        border-radius: 5px;
+
+    }
+
+    .deli {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 
 }
-#mypage ul
-{
-    width: 900px;
-    margin: 20px auto;
-    border: 2px solid rgb(240, 240, 240);
-    border-radius: 15px;
-    padding: 20px 40px;
-}
-
-#mypage li
-{
-    display: flex;
-    padding: 15px;
-    border: 2px solid rgb(240, 240, 240);
-    border-radius: 15px;
-    margin-bottom: 20px;
-}
-
-.prof
-{
-    width: 75%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.deli
-{
-    display: flex;
-}
-
-.deli-info
-{
-    padding: 10px;
-}
-
-.name
-{
-    font-size: 20px;
-}
-
-.pay
-{
-    font-size: 18px;
-    margin-top: 8px;
-}
-
-.buts
-{
-    width: 25%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.buts button
-{
-    width: 90%;
-    height: 35px;
-    margin: 7px 0px;    
-
-    background-color: white;
-    border: 2px solid rgb(222, 222, 222);
-    border-radius: 5px;
-
-}
-
-.buts button:hover
-{
-    background-color: #2b99ff;
-    color: white;
-    border: 1.5px solid;
-
-}
-
 
 
 
