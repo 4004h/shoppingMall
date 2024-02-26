@@ -1168,14 +1168,20 @@ footer
         justify-content: start;
         padding: 0px;
 
-        padding-bottom: 100px;
+        height: calc(100vh - 140px - 53px - 27px);
         background-color: rgba(0, 0, 0, 0.425);
+
+        overflow: scroll;
     }
+
+    .mainToggl::-webkit-scrollbar{
+        display:none;
+      }
 
     .mainToggl>li
     {
         background-color: rgb(255,255,255);
-        width: 250px;
+        width: 190px;
         margin: 0px;
         padding: 20px;
     }
